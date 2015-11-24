@@ -1,5 +1,3 @@
-scp -i ~/.ssh/anmol-cloudlab-new.pem -r  vm3:~/software/hadoop-2.4.1 ~/software/hadoop-2.4.1 
-
-scp -i ~/.ssh/anmol-cloudlab-new.pem -r ~/software/hadoop-2.4.1  vm2:~/software/hadoop-2.4.1
-
-scp -i ~/.ssh/anmol-cloudlab-new.pem -r ~/software/hadoop-2.4.1  vm4:~/software/hadoop-2.4.1
+sudo scp -i ~/.ssh/anmol-cloudlab-new.pem  ~/run.sh  vm3:/home/ubuntu 
+sudo scp -i ~/.ssh/anmol-cloudlab-new.pem  ~/run.sh  vm2:/home/ubuntu
+sudo scp -i ~/.ssh/anmol-cloudlab-new.pem  ~/run.sh  vm4:/home/ubuntu
